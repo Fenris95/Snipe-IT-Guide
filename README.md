@@ -200,7 +200,7 @@ sudo systemctl restart apache2
    ```
 2. **System Requirements Check:**
    - If all requirements are ticked, click **Next**.
-3. **Database Step:** If you already migrated tables earlier, you can **skip this step**.
+3. **Database Step:** **Skip this step** as we have already configured the database.
 4. **Admin Setup**:
    - Enter your **admin email, username, and password**.
    - Click **Next**.
