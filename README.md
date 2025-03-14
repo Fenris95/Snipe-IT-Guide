@@ -66,7 +66,7 @@ sudo systemctl start apache2
 4. Install PHP and the required extensions.
 
 ```bash
-sudo apt install php libapache2-mod-php php-mysql php-ldap php-zip php-gd php-mbstring php-curl php-xml php-bcmath php-intl -
+sudo apt install php libapache2-mod-php php-mysql php-ldap php-zip php-gd php-mbstring php-curl php-xml php-bcmath php-intl -y
 ```
 
 5. Install and configure MySQL Server.
