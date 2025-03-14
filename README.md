@@ -155,13 +155,6 @@ sudo mv composer.phar /usr/local/bin/composer
 composer install --no-dev --prefer-source
 ```
 
-> If you see a "permission denied" error, try:
-
-```bash
-sudo chown -R $USER:$USER /var/www/html/snipe-it
-composer install --no-dev --prefer-source
-```
-
 ### **6. Generate App Key**
 
 ```bash
