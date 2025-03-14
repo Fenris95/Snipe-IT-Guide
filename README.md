@@ -149,6 +149,7 @@ sudo nano .env
 ### **5. Install Composer and Dependencies**
 
 ```bash
+sudo chown -R $USER:$USER /var/www/html/snipe-it
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 composer install --no-dev --prefer-source
