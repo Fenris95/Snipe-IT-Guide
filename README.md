@@ -45,17 +45,33 @@ This guide will walk you through installing **Ubuntu Server on VMware Player/Wor
 After logging into your Ubuntu Server VM:
 
 1. Update the package lists and upgrade installed packages.
-2. Install Apache using the package manager.
-3. Enable and start the Apache service.
-4. Install PHP and the required extensions.
-5. Install and configure MySQL Server.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y apache2
+```
+
+2. Install Apache using the package manager.
+
+```bash
+ssudo apt install -y apache2
+```
+
+3. Enable and start the Apache service.
+
+```bash
 sudo systemctl enable apache2
 sudo systemctl start apache2
-sudo apt install php libapache2-mod-php php-mysql php-ldap php-zip php-gd php-mbstring php-curl php-xml php-bcmath php-intl -y
+```
+
+4. Install PHP and the required extensions.
+
+```bash
+sudo apt install php libapache2-mod-php php-mysql php-ldap php-zip php-gd php-mbstring php-curl php-xml php-bcmath php-intl -
+```
+
+5. Install and configure MySQL Server.
+
+```bash
 sudo apt install mysql-server -y
 ```
 
