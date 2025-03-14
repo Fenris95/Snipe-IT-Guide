@@ -97,7 +97,7 @@ sudo apt install mysql-server -y
 
    ```sql
    CREATE DATABASE snipeit;
-   CREATE USER 'snipeituser'@'localhost' IDENTIFIED BY 'your_password';
+   CREATE USER 'snipeituser'@'localhost' IDENTIFIED BY 'strong_password';
    GRANT ALL PRIVILEGES ON snipeit.* TO 'snipeituser'@'localhost';
    FLUSH PRIVILEGES;
    EXIT;
@@ -141,7 +141,7 @@ sudo nano .env
   ```
   DB_DATABASE=snipeit
   DB_USERNAME=snipeituser
-  DB_PASSWORD=your_password
+  DB_PASSWORD=your_strong_password
   ```
 
 - **Save and Exit**: Press `CTRL + X`, then `Y`, then **Enter**.
