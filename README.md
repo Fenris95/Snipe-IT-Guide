@@ -199,7 +199,7 @@ sudo systemctl restart apache2
    http://192.168.202.128
    ```
 2. **System Requirements Check:**
-   - If all requirements are ✅, click **Next**.
+   - If all requirements are ticked, click **Next**.
 3. **Database Step:** If you already migrated tables earlier, you can **skip this step**.
 4. **Admin Setup**:
    - Enter your **admin email, username, and password**.
