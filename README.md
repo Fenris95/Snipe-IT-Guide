@@ -132,16 +132,18 @@ sudo cp .env.example .env
 sudo nano .env
 ```
 
+- **Set APP\_URL** to your VM's IP (found in Step 2):
+  ```bash
+  APP_URL=http://192.168.x.x
+  ```
+  
 - **Set Database Configuration:**  (update with your details)
   ```
   DB_DATABASE=snipeit
   DB_USERNAME=snipeituser
   DB_PASSWORD=your_password
   ```
-- **Set APP\_URL** to your VM's IP (found in Step 2):
-  ```bash
-  APP_URL=http://192.168.x.x
-  ```
+
 - **Save and Exit**: Press `CTRL + X`, then `Y`, then **Enter**.
 
 ### **5. Install Composer and Dependencies**
