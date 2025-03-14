@@ -53,7 +53,7 @@ sudo apt update && sudo apt upgrade -y
 2. Install Apache using the package manager.
 
 ```bash
-sudo apt install -y apache2
+sudo apt install apache2 -y
 ```
 
 3. Enable and start the Apache service.
